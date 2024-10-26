@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.heading-international-con {
+    font-size: 60px;
+    font-family: roboto;
+    color: #283747;
+    font-weight: bold;
+    text-shadow: 5px 5px white;
+
+}
+
+#face {
+    width: 380px;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Times New Roman";
+    margin: 20px;
+    text-decoration: none;
+}
+
+.navbar-frand {
+    font-size: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Times New Roman";
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-krand {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Times New Roman";
+    margin: 20px;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    font-family: "Times New Roman";
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-image: url("");
+    width: 100%;
+    height: 30%;
+}
+
+.navv {
+    color: rgb(248, 255, 174);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #D8D2C2;
+    margin: 5px;
+}
+
+.sponsored {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    text-align: center;
+    font-family: system-ui;
+    padding-top: 30px;
+
+}
+
+.pp {
+    padding: 0px;
+    vertical-align: super;
+    font-size: smaller;
+}
+
+
+.op {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 8px;
+    padding-right: 8px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.btn {
+    positon: relative;
+    left: 80%;
+}
+
+.btn-flex .jpr {
+    width: 18rem;
+    height: 18rem;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#yt {
+    width: 580px;
+    height: 315px;
+}
+
+.jpr,
+.eng-logo,
+.naac-logo,
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.eng-logo {
+    width: 14rem;
+    height: 10rem;
+}
+
+.naac-logo {
+    width: 10rem;
+    height: 10rem;
+
+}
+
+.ic-logo {
+    width: 10rem;
+    height: 10rem;
+}
+
+.nirf-logo {
+    width: 30rem;
+    height: 20rem;
+}
+
+.specter-logo {
+    width: 100rem;
+    height: 20rem;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    margin: 0;
+}
+
+.map-ad {
+    background-image: linear-gradient(rgb(255, 136, 0), yellow);
+}
+
+.row {
+    font-size: large;
+}
+
+#row-logo {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+#hema {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.eight {
+    height: auto;
+    width: 75px;
+}
+
+.comsoc {
+    height: auto;
+    width: 150px;
+    margin-top: 40px;
+
+}
+
+.WE-da {
+    height: auto;
+    width: 115px;
+}
+
+.society-com {
+    height: auto;
+    width: 150px;
+    margin-top: 20px;
+
+
+}
+
+.sight-iee {
+    height: auto;
+    width: 180px;
+}
+
+.gal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+    margin: 0 auto;
+    /* Center the section */
+    padding: 20px;
+    /* Add some padding */
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.entity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.float {
+    color: white;
+}
+
+#share {
+    font-size: large;
+}
+
+.follow {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.follow a {
+    text-decoration: none;
+}
+
+.share-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 5px;
+    padding: 0;
+}
+
+.theme {
+    background-color: #A66E38;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+#top {
+    font-size: 27px;
+    color: #FFEEAD;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+#tophead {
+    font-size: 27px;
+    color: #FFEEAD;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    text-align: center;
+}
+
+.para {
+    font-family: "Times New Roman";
+    font-size: 25px;
+}
+
+#contact {
+    padding: 3px;
+
+    border: 3px black solid;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #con {
+        font-size: 50px !important;
+    }
+
+    .eng-logo {
+        width: 150px;
+        height: 5rem;
+    }
+
+    .naac-logo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .ic-logo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .specter-logo {
+        width: 15rem !important;
+        height: 10rem !important;
+    }
+
+    .nirf-logo {
+        width: 15rem !important;
+        height: 15rem !important;
+        margin-right: 0;
+    }
+
+    #eee {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-md-6,
+    .col-sm-6,
+    .col-6 {
+        display: flex;
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically */
+    }
+
+    .eight {
+        height: auto;
+        width: 150px !important;
+    }
+
+    .comsoc {
+        height: auto;
+        width: 150px !important;
+        margin-top: 0;
+    }
+
+    .WE-da {
+        height: auto;
+        width: 130px !important;
+    }
+
+    .society-com {
+        height: auto;
+        width: 150px !important;
+    }
+
+    .sight-iee {
+        height: auto;
+        width: 160px !important;
+    }
+
+    #con {
+        font-size: 23px;
+    }
+
+    .para {
+        font-size: 20px;
+    }
+
+    td {
+        font-size: 18px;
+    }
+
+
+}
+
+.pencil {
+    color: white;
+}
+
+td {
+    font-size: 26px;
+}
+
+
+@media screen and (max-width: 600px) {
+    #con {
+        font-size: 30px !important;
+    }
+
+    .navbar-frand {
+        font-size: 12px;
+    }
+
+    #yt {
+        width: auto;
+        height: auto;
+    }
+
+    #row-logo {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    .sponsored {
+        font-size: 15px;
+    }
+
+    .eight {
+        height: auto !important;
+        width: 50px !important;
+    }
+
+    .comsoc {
+        height: auto;
+        margin-top: 15px !important;
+        width: 50px !important;
+    }
+
+    .WE-da {
+        height: auto;
+        margin-left: 10px !important;
+        width: 38px !important;
+    }
+
+    .society-com {
+        height: auto;
+        margin-top: 0 !important;
+        width: 70px !important;
+    }
+
+    .sight-iee {
+        height: auto !important;
+        width: 50px !important;
+    }
+
+    .para {
+        font-size: 20px;
+    }
+
+    .specter-logo {
+        width: 100px !important;
+        height: 70px !important;
+    }
+
+    .nirf-logo {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    #eee {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-md-6,
+    .col-sm-6,
+    .col-6 {
+        display: flex;
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically */
+    }
+
+    #face {
+        width: 180px;
+    }
+
+    .eng-logo {
+        width: 12rem !important;
+        height: 5rem !important;
+    }
+
+    .naac-logo {
+        width: 5rem !important;
+        height: 5rem !important;
+    }
+
+    .ic-logo {
+        width: 5rem !important;
+        height: 5rem !important;
+    }
+
+    td {
+        font-size: 18px;
+    }
+
+    #top {
+        font-size: 20px;
+        color: #FFEEAD;
+        font-weight: bold;
+        font-family: "Times New Roman";
+    }
+
+    #tophead {
+        font-size: 20px;
+        color: #FFEEAD;
+        font-weight: bold;
+        font-family: "Times New Roman";
+        text-align: center;
+    }
+
+    #grad {
+        font-size: 20px;
+    }
+
+    #check {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-brand {
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        font-family: "Times New Roman";
+        padding: 10px;
+    }
+
+    .specter-logo {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    .nirf-logo {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #eee {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-md-6,
+    .col-sm-6,
+    .col-6 {
+        display: flex;
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically */
+    }
+
+    .eight {
+        height: auto;
+        width: 145px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .navbar-brand {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        font-family: helvetica;
+        padding: 10px;
+    }
+
+    .eng-logo {
+        width: 10rem;
+        height: 5rem;
+    }
+
+    .naac-logo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .ic-logo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .specter-logo {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    .nirf-logo {
+        width: 15rem;
+        height: 15rem;
+        margin-right: 0;
+    }
+
+    #eee {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-md-6,
+    .col-sm-6,
+    .col-6 {
+        display: flex;
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically */
+    }
+
+    #ieee {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #row-logo {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    .eight {
+        height: auto;
+        width: 145px;
+    }
+
+    .comsoc {
+        margin-top: 0;
+    }
+
+    #pes {
+        margin-bottom: 30px;
+    }
+
+    #photo {
+        margin-top: 10px;
+    }
+
+
+    .op {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 8px;
+        padding-right: 8px;
+    }
+
+    .gal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Center items horizontally */
+        margin: 0 auto;
+        /* Center the section */
+        padding: 30px;
+        /* Add some padding */
+        width: 80%;
+    }
+
+    .animated-text {
+        overflow: hidden;
+        width: 55vh;
+        height: 6vh;
+        white-space: nowrap;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .table {
+        display: flex;
+        justify-content: Center;
+        width: auto;
+        height: auto;
+    }
+}
